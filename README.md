@@ -10,7 +10,7 @@ These are course files (instructional materials) for the **BBT4206: Business Int
 | **Semester Duration**                                                 | 21<sup>st</sup> August 2023 to 28<sup>th</sup> November 2023                                                                                                                       |
 | **Lecturer**                                                          | Allan Omondi                                                                                                                                                                       |
 | **Contact**                                                           | aomondi_at_strathmore_dot_edu                                                                                                                                                      |
-| **Recommended Citation (download [BibTex](RecommendedCitation.bib))** | Omondi, A. (2023). BBT4206-R-Lab4of15-ExposingTheStructureOfDataUsingDataTransforms [R]. https://github.com/course-files/BBT4206-R-Lab4of15-ExposingTheStructureOfDataUsingDataTransforms (Original work published 2023) |
+| **Recommended Citation (download [BibTex](RecommendedCitation.bib))** | Omondi, A. (2023). BBT4206-R-Lab5of15-ResamplingMethods [R]. https://github.com/course-files/BBT4206-R-Lab5of15-ResamplingMethods |
 
 It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)**:
 
@@ -44,7 +44,7 @@ This involves describing data to better understand it. Through this understandin
 
 This involves finding useful features that represent the data according to the goal of addressing the problem defined. In doing so, the structure of the data and the prediction problem is exposed to data mining algorithms. Finding useful attributes/features can also be done through dimensionality reduction (identifying the most significant and uncorrelated attributes). This can be performed by a data analyst.
 
--   [*Lab4-ExposingtheStructureofDatausingDataTransforms.R*](Lab4-ExposingTheStructureOfDataUsingDataTransforms.R)
+-   *Lab4-ExposingtheStructureofDatausingDataTransforms.R*
 
 ## Step 5: Selection of the Data Mining Task
 
@@ -56,7 +56,7 @@ This involves deciding whether to use data mining to either predict classificati
 
 Evaluate several standard algorithms on the data and shortlist the top performing algorithms to investigate further
 
--   *Lab5-ControllingComputationalNuancesofAlgorithms.R*
+-   [*Lab5-ResamplingMethods.R*](Lab5-ResamplingMethods.R)
 
 -   *Lab6-EvaluationMetrics.R*
 
