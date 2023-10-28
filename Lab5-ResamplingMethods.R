@@ -385,7 +385,7 @@ defaulter_dataset_model_nb_e1071 <- # nolint
 ## 3. Test the trained Naive Bayes model using the testing dataset ----
 predictions_nb_e1071 <-
   predict(defaulter_dataset_model_nb_e1071,
-          defaulter_dataset_test[, 1:25])
+          defaulter_dataset_test[, 1:24])
 
 ## 4. View the Results ----
 ### 4.a. e1071 Naive Bayes model and test results using a confusion matrix ----
@@ -397,7 +397,7 @@ caret::confusionMatrix(predictions_nb_e1071,
 plot(table(predictions_nb_e1071,
            defaulter_dataset_test$`default payment next month`))
 
-# DATASET 3 (Bootstrapping): Daily Demand Forecasting Orders Data Set =====
+# DATASET 3 (Bootstrapping): Daily Demand Forecasting Orders Data Set ----
 demand_forecasting_dataset <-
   readr::read_delim(
     "data/Daily_Demand_Forecasting_Orders.csv",
